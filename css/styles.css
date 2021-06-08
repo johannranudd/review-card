@@ -27,10 +27,21 @@ main {
 }
 
 .img-container {
-  width: 150px;
-  height: 150px;
-  background: url(/img/meg.jpeg) no-repeat center center/cover;
+  width: 200px;
+  height: 200px;
+  /* background: url(/img/meg.jpeg) no-repeat center center/cover; */
   border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+    /* margin-top: -50px; */
+    /* max-width: 100%; */
+    /* height: auto; */
+    object-fit: contain;
 }
 
 .review {
