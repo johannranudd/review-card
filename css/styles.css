@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(211, 229, 235);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.img-container {
+  width: 150px;
+  height: 150px;
+  background: url(/img/meg.jpeg) no-repeat center center/cover;
+  border-radius: 50%;
+}
+
+.review {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.review * {
+  padding: 10px 0;
+}
+
+button {
+    background: transparent;
+    border: none;
+    color: rgb(82, 194, 231);
+    margin: 0px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
