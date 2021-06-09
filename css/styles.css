@@ -27,21 +27,23 @@ main {
 }
 
 .img-container {
-  width: 200px;
-  height: 200px;
   /* background: url(/img/meg.jpeg) no-repeat center center/cover; */
+
+  position: relative;
+  width: 150px;
+  height: 185px;
   border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
 }
 
 img {
-    /* margin-top: -50px; */
-    /* max-width: 100%; */
-    /* height: auto; */
-    object-fit: contain;
+  width: 100%;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  position: relative;
 }
 
 .review {
@@ -56,10 +58,10 @@ img {
 }
 
 button {
-    background: transparent;
-    border: none;
-    color: rgb(82, 194, 231);
-    margin: 0px 15px;
-    cursor: pointer;
-    font-size: 20px;
+  background: transparent;
+  border: none;
+  color: rgb(82, 194, 231);
+  margin: 0px 15px;
+  cursor: pointer;
+  font-size: 20px;
 }
